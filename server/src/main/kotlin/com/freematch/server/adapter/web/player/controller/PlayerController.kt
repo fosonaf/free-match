@@ -1,4 +1,4 @@
-package com.freematch.server.adapter.web.player
+package com.freematch.server.adapter.web.player.controller
 
 import com.freematch.server.application.PlayerService
 import com.freematch.server.domain.player.model.toResponse

@@ -39,3 +39,7 @@ SELECT RANDOM_UUID(), 'f1f1f1f1-f1f1-f1f1-f1f1-f1f1f1f1f1f1', '2025-11-05', '20:
       AND date = '2025-11-05'
       AND start_time = '20:30:00'
 );
+
+INSERT INTO users (id, email, password, username, role)
+SELECT '550e8400-e29b-41d4-a716-446655440000', 'test@freematch.com', '$2a$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'TestUser', 'USER'
+    WHERE NOT EXISTS (SELECT 1 FROM users WHERE email = 'test@freematch.com');

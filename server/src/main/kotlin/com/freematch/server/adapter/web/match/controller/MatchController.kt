@@ -1,4 +1,4 @@
-package com.freematch.server.adapter.web.match
+package com.freematch.server.adapter.web.match.controller
 
 import com.freematch.server.adapter.web.match.dto.CreateMatchRequest
 import com.freematch.server.adapter.web.match.dto.MatchResponse

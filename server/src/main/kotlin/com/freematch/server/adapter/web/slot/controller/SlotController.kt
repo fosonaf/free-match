@@ -1,4 +1,4 @@
-package com.freematch.server.adapter.web.slot
+package com.freematch.server.adapter.web.slot.controller
 
 import com.freematch.server.adapter.web.slot.dto.SlotResponse
 import com.freematch.server.adapter.web.slot.dto.toResponse

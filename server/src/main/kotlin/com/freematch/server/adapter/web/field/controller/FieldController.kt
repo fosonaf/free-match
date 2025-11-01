@@ -1,4 +1,4 @@
-package com.freematch.server.adapter.web.field
+package com.freematch.server.adapter.web.field.controller
 
 import com.freematch.server.adapter.web.field.dto.FieldResponse
 import com.freematch.server.domain.field.model.toResponse

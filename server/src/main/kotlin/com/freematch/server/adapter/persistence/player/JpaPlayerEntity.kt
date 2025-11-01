@@ -19,7 +19,6 @@ data class JpaPlayerEntity(
     val avatarUrl: String? = null
 )
 
-// Conversions
 fun JpaPlayerEntity.toDomain() = Player(
     id = this.id,
     username = this.username,
