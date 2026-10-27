@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# IntelliJ IDEA
+.idea/
+.run/
+*.iml
+
+# Build output and caches
+.gradle/
+.kotlin/
+build/
+dist/
+out/
+*.tsbuildinfo
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db

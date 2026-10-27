@@ -20,10 +20,18 @@ Que vous soyez amateur de football, basketball, tennis ou tout autre sport, Free
 
 ### Prérequis
 - **Node.js** (v18+)
-- **Java JDK** (v21+)
+- **Java JDK 25** (avec `JAVA_HOME` pointant vers cette installation)
 - **Gradle** (inclus via wrapper)
 
 ### 🛠️ Lancer l'application
+
+#### Avec IntelliJ IDEA
+
+Ouvrir la racine du projet et laisser IntelliJ synchroniser le projet Gradle `server`.
+Les configurations partagées du dossier `.run` permettent de lancer **Backend**
+(`bootRun`), **Frontend** (`npm run dev`) ou **FreeMatch** (les deux ensemble).
+Gradle utilise le JDK indiqué par `JAVA_HOME`, qui doit être Java 25.
+Installer les dépendances du frontend avec `npm install` dans `client` avant le premier lancement.
 
 #### 1️⃣ **Backend** (Kotlin/Spring Boot)
 
